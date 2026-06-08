@@ -91,7 +91,7 @@ A 10-year-old student loves football and video games.
 
 Explain neural networks using a football analogy and a video game analogy.
 
-Use short paragraphs, simple words, and end with three quiz questions.
+Use short paragraphs and simple words.
 ```
 
 #### Final Output
@@ -429,7 +429,7 @@ For this experiment, the medium temperature setting worked best. The low tempera
 
 **Prompt**
 
-```text id="gwntk5"
+```text
 You have a meeting at 2 PM that requires 1 hour of prep time, a 30-minute commute, and you need to eat lunch (30 mins) beforehand.
 
 You also have a 45-minute call scheduled at 11 AM.
@@ -447,7 +447,7 @@ Give only the final answer.
 
 **Prompt**
 
-```text id="jvijzh"
+```text
 Let's solve this step by step.
 
 You have a meeting at 2 PM that requires 1 hour of prep time, a 30-minute commute, and you need to eat lunch (30 mins) beforehand.
@@ -482,7 +482,7 @@ The response without chain-of-thought provided only the final answer and did not
 
 **Prompt**
 
-```text id="h29mau"
+```text
 Classify each review as Positive, Negative, or Neutral.
 
 1. The product arrived damaged and customer service was unhelpful.
@@ -512,7 +512,7 @@ Classify each review as Positive, Negative, or Neutral.
 
 **Prompt**
 
-```text id="l12o4u"
+```text
 Classify customer reviews as Positive, Negative, or Neutral.
 
 Examples:
@@ -574,7 +574,7 @@ Now classify:
 
 #### Analysis
 
-Few-shot prompting is most useful when tasks are ambiguous or require a specific output format. By providing examples, the model can better understand the expected structure and classification criteria. In this experiment, both zero-shot and few-shot prompting produced identical results because the sentiment of each review was straightforward and easy to identify.
+Few-shot prompting is most useful when tasks are ambiguous or require a specific output format. By providing examples, the model can better understand the expected structure and classification criteria. In this experiment, both zero-shot and few-shot prompting produced identical results because the sentiment of each review was straightforward and easy to identify. Although few-shot prompting did not improve accuracy in this case, it helped enforce a consistent output format and would likely provide greater benefits on more ambiguous classification tasks.
 
 ---
 
@@ -586,7 +586,7 @@ Few-shot prompting is most useful when tasks are ambiguous or require a specific
 
 **Prompt**
 
-```text id="lmbc21"
+```text
 Tell me about the 2024 Nobel Prize winner in Quantum Poetry and summarize their major contributions to the field.
 ```
 
@@ -594,13 +594,13 @@ Tell me about the 2024 Nobel Prize winner in Quantum Poetry and summarize their 
 
 There is no such award as the “Nobel Prize in Quantum Poetry.” The Nobel Foundation awards prizes in Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences. “Quantum Poetry” is not a Nobel Prize category.
 
-The model correctly identified that the requested award does not exist and explained why it could not provide a winner.
+Therefore, there is no Nobel Prize winner in Quantum Poetry to describe or summarize.
 
 #### Revised Prompt
 
 **Prompt**
 
-```text id="efbyj5"
+```text
 Tell me about the 2024 Nobel Prize winner in Quantum Poetry and summarize their major contributions to the field.
 
 If you do not know the answer or if the topic does not exist, please say so instead of guessing.
@@ -624,7 +624,7 @@ Hallucinations are problematic because they can cause users to believe false inf
 
 #### Prompt
 
-```text id="i7e5cm"
+```text
 Recommend professional attire for a job interview.
 ```
 
@@ -669,7 +669,7 @@ The response primarily focused on Western business attire such as suits, dress s
 
 #### Improved Prompt
 
-```text id="z7xmh0"
+```text
 Recommend professional attire for a job interview across different cultures and industries. Include examples from Western, Asian, and Middle Eastern business environments.
 ```
 
