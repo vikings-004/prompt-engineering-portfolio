@@ -8,13 +8,13 @@ LLM Used: ChatGPT (GPT-5.5)
 
 ### 1.1 Scenario A: Technical Explanation
 
-**Prompt**
+**Initial Prompt**
 
 ```text
 Explain how neural networks work to a 10-year-old.
 ```
 
-**Output**
+**Inital Output**
 
 Imagine you're teaching a robot to recognize cats.
 
@@ -46,10 +46,44 @@ A neural network is like a giant team of tiny helpers inside a computer.
    * The helpers adjust how much they listen to each other.
    * After seeing many pictures, the robot gets better and better.
 
+
+**Revised Prompt**
+
+```text
+You are an elementary school science teacher.
+
+Explain neural networks to a 10-year-old using simple language and a real-world example.
+
+Avoid technical jargon.
+```text
+
+**Final Output**
+
 Think of a neural network like a huge group of friends solving a puzzle together. Each friend knows a little bit, and by working together they can recognize things, translate languages, and even chat with people.
 
 
+Imagine you're trying to learn how to tell the difference between dogs and cats.
+
+At first, you might not be very good at it. But after looking at hundreds of pictures, you start noticing patterns:
+
+Cats often have pointy ears.
+Dogs may have longer noses.
+Some animals are big, some are small.
+
+A neural network learns in a similar way.
+
+Think of it as a team of tiny helpers inside a computer. Each helper looks for one small clue in a picture. One helper might notice ears, another might notice eyes, and another might notice fur. They share their clues with each other.
+
+After all the helpers have done their jobs, the computer makes a guess:
+"That's a cat!"
+
+If the guess is wrong, the computer learns from its mistake and adjusts how it thinks. After practicing with many examples, it gets better and better at recognizing animals.
+
+So, a neural network is like a student who learns by looking at lots of examples, making guesses, and improving from mistakes until they become really good at a task.
+
 ### 1.1 Scenario B: Professional Email
+
+
 
 ### 1.1 Scenario C: Creative Content
 
