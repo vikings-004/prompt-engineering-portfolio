@@ -55,7 +55,7 @@ You are an elementary school science teacher.
 Explain neural networks to a 10-year-old using simple language and a real-world example.
 
 Avoid technical jargon.
-```text
+```
 
 **Final Output**
 
