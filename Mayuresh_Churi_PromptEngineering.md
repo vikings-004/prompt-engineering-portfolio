@@ -16,7 +16,6 @@ Explain how neural networks work to a 10-year-old.
 
 **Output**
 
-```text
 Imagine you're teaching a robot to recognize cats.
 
 A neural network is like a giant team of tiny helpers inside a computer.
@@ -49,7 +48,6 @@ A neural network is like a giant team of tiny helpers inside a computer.
 
 Think of a neural network like a huge group of friends solving a puzzle together. Each friend knows a little bit, and by working together they can recognize things, translate languages, and even chat with people.
 
-```
 
 ### 1.1 Scenario B: Professional Email
 
